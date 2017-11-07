@@ -10,7 +10,7 @@ var swichTrack3;
 
 
 function moveIcs() {
-  var spin = `rotate(${spinner}deg)`;
+  var spin = `rotate(${-spinner}deg)`;
   spinner+=10;
   ics.style.transform = spin;
 
